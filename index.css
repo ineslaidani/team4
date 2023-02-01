@@ -1,0 +1,21 @@
+
+
+#title{
+
+    text-align: center;
+    
+}
+h1,h3{
+    text-align: center;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    margin-left: 40px;
+}
+.training{
+    background-color: #2E3338;
+}
