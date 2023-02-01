@@ -1,0 +1,69 @@
+.parent{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  grid-column-gap: 78px;
+  padding: auto;
+
+}
+.hey{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{ background-color: rgb(34, 34, 34);
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.one{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.two{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 38px;
+}
+.three{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.four{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.five{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.six{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.seven{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.eight{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.nine{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.ten{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
