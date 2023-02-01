@@ -1,0 +1,58 @@
+.body {
+    background-color: rgb(53, 51, 51);
+}
+.data {
+    text-align: center;
+    padding: 1rem 19rem;
+    color: #FFFFFF;}
+
+ .pricing-container {
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+      column-gap: 2rem;
+      justify-content: center;
+ }
+ .cards {
+    display: grid;
+    row-gap: 1srem;
+    background-color: #D28D0C;
+    padding: 3rem;
+    justify-content: center;
+    text-align: center;
+ }
+ .head{
+      font-size: 1rem;  
+ }
+ .card-title{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 1px;
+ }
+ .card-price {
+     font-size: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0%;
+ }
+ .list{
+    display: grid;
+    row-gap: 1rem;
+    
+ }
+ .pricing-item {
+    display: flex;
+    column-gap: 5rem;
+    align-items: center;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 0 1rem;
+ }
+ .button {
+     background-color: black;
+     width: 150px ;
+     padding: 15px 0px;
+     text-align: center;
+     margin: 10px 10px;
+     font-weight: bold ;
+    color: #FFFFFF;
+ }
