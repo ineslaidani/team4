@@ -1,53 +1,63 @@
 *{
     margin: 0;
     padding: 0;
-    outline: none; 
-    border: none;
-    text-transform: capitalize;
-    transition: all .2s ease-out;
+   box-sizing: border-box;
+   list-style: none;
     text-decoration: none;
   
 }
-.first img{
-    width: px;
-    height: px;
-    }
-
-   .abine{
-   
-    font-family: sans-serif;
-    background-image: url("back.jpeg");
+body{
+    font-family: monospace;
+    
+    background-image: url("backk.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
-    margin-top: 40px;
-    height: 100vh;
-
-
-   }
-
-
-.first{
-    padding: 1rem 7%;
-    position: fixed; 
-    top: 0; left: 0;
-     right: 0;
-    box-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
-    display: inline;
-    justify-content: space-between;
-    background: black;
-    font-family: monospace;
     
 }
-.first li{
-    display: inline;
-    padding: 50px 20px;
+nav{
+    background: rgb(0, 0, 0);
+    height: 60px;
+width: 100%;
 }
-.first li a{
-    text-decoration: none;
-    font-size: 20px;
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 60px;
+    font-weight: bold;
+}
+.logo span{
+    color: orange;
+}
+nav ul{
+    float: right;
+    margin-right: 12em;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 9px;
+   
+}
+nav ul li a{
     color: rgb(255, 255, 255);
+    font-size: 17px;
+    
 }
+
+.fa-brands {  
+    
+    padding: 6px;
+    text-align: center;
+    font-size: 1em;
+    color: white;
+      
+  }    
+
+  
 .second{
     display: flex;
     width: 90%;
@@ -69,6 +79,7 @@ line-height: 50px;
 margin: 25px 0;
 text-align: center;
 
+
 }
 .btn{
   background-color:orange ;  
@@ -78,16 +89,15 @@ text-align: center;
  
     text-align: center;
   font-size: 16px;
-  border-radius: 25px;
-top: 50%;
+  border-radius: 7px;
+top: 60%;
 left: 15%;
 position: absolute;
 }
  
-.fa-brands {  
-    
-    padding: 10px;
-    text-align: center;
-    font-size: 1em;
-    color: white;  
-  }    
+.fa{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+
