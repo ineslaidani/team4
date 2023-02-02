@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+body {
+    background-color: #333333;
+}
 *{
+    font-family:'Heebo', sans-serif;
     margin: 0;
     padding: 0;
    box-sizing: border-box;
    list-style: none;
-    text-decoration: none;
-  
+    text-decoration: none; 
 }
-body{
-    font-family: monospace;
-    
-    background-image: url("backk.jpeg");
+/* ---------------------------------------first page -------------------------------------------*/
+.page1{  
+    background-image: url("images/backk.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     object-fit: cover;
-    
-}
+    padding: 0rem 0rem 8rem;
+}   
+
 nav{
     background: rgb(0, 0, 0);
     height: 60px;
@@ -63,24 +67,17 @@ nav ul li a{
     width: 90%;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
     padding: 88px 0;
     color: rgb(255, 255, 255);
 font-weight: bold; 
 border-radius: 8px;
 width: 500px;
-font-family: Arial, Helvetica, sans-serif;
-
-
-}
+font-family: Arial, Helvetica, sans-serif;}
 .second h1{
 font-size: 40px;
 line-height: 50px;
 margin: 40px 0;
-text-align: center;
-
-
-}
+text-align: center; }
 .btn{
   background-color: #d68d05;  
   border: none;
@@ -90,14 +87,220 @@ text-align: center;
     text-align: center;
   font-size: 16px;
   border-radius: 7px;
-top: 70%;
-left: 15%;
+top: 55%;
+left: 12%;
 position: absolute;
 }
- 
 .fa{
     color: rgb(255, 255, 255);
     font-size: 12px;
 }
+/* ------------------------------ scond page---------------------------------*/
+  
+.services {
+background-color :  #333333; }
+.title {
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 1rem;
+   
+}
+.parag {
+    display: flex;
+    justify-content: center;
+    color: #f9f9f9; 
+    margin-bottom: 30px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    
+}
+    
+.premier {
+    background-color: #F10303;
+    margin: 20px;
+    width: 400px;
+    padding-left:  60px;
+    padding-top: 60px;
+   
+}
+.deuxieme {
+    background-color: #312D2D;
+     margin: 20px;
+    width: 400px;
+    padding-left:  60px;
+    padding-top: 60px;
+    
+}
+.icon{
+    color: #FF8700;   
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+.info {
+    text-align: center;
+    color: #f9f9f9;
+}
+/*----------------------------third page -----------------------*/
+#title2{
+    text-align: center;  
+    margin-top: 3rem;
+}
+h1,h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    margin-left: 40px;
+}
+.training{
+    background-color: #5F5F5F;
+}
+/*--------------------------------------fourth page -------------------------------------*/
+.parent{
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px ;
+  grid-column-gap: 78px;
+  padding: auto;
+}
+.hey{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+      margin-top: 1rem;
+}
+.two{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 38px;
+}
+.three{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.four{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.five{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.six{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.seven{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.eight{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.nine{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+.ten{
+  font-family:'Heebo', sans-serif;
+  color: white;
+  text-align: center;
+}
+/*----------------------------------------------fifth page -----------------------------------*/
+.data {
+    text-align: center;
+    padding: 1rem 19rem;
+    color: #FFFFFF;}
+.sect-title{
+    margin-bottom: 2rem;
+}
 
+ .pricing-container {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+      column-gap: 5rem;
+      justify-content: center;
+ }
+ .cards2 {
+    display: grid;
+    row-gap: 1srem;
+    background-color: #FFA500;
+    padding: 3rem 1rem;
+    justify-content: center;
+    text-align: center;
+ }
+ .head{
+      font-size: 1rem; 
+      color: #000000; 
+ }
+ .card-title{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 1px;
+ }
+ .card-price {
+     font-size: 2rem;
+     margin-top: 0px;
+     margin-bottom: 0%;
+     color: #000000;
+ }
+ .list{
+    display: grid;
+    row-gap: 1rem;
+    
+ }
+ .pricing-item {
+    font-size: 15px;
+    color: #FFFFFF;
+   
+ }
+ .button {
+     background-color: black;
+     width: 150px ;
+     padding: 15px 0px;
+     text-align: center;
+     margin: 10px 10px;
+     font-weight: bold ;
+    color: #FFFFFF;
+ }
+ .END {
+   display: grid;
+   grid-template-columns: 20px 20px ;
+     column-gap: 15rem;
+     padding: 1rem 34rem;
 
+ }
+ .button2 {
+   background-color: #FFA500;
+   width: 150px ;
+   padding: 15px 0px;
+   text-align: center;
+   margin: 20px 10px;
+   font-weight: bold ;
+  color: #000000;
+}
